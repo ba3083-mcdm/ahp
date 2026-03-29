@@ -32,9 +32,7 @@ This project includes:
 
 Given \( n \) criteria, construct a matrix:
 
-\[
-A = (a_{ij}), \quad a_{ij} = \frac{1}{a_{ji}}, \quad a_{ii} = 1
-\]
+$$A = (a_{ij}), \quad a_{ij} = \frac{1}{a_{ji}}, \quad a_{ii} = 1$$
 
 ---
 
@@ -49,9 +47,7 @@ Weights are computed using:
 
 Consistency Index:
 
-\[
-CI = \frac{\lambda_{\max} - n}{n - 1}
-\]
+$$CI = \frac{\lambda_{\max} - n}{n - 1}$$
 
 - \( RI \): Random Index  
 - Acceptable if: **CR < 0.1**
