@@ -18,15 +18,15 @@ This project includes:
 
 ## Features
 
-- ✅ Pairwise comparison matrix input  
-- ✅ Weight calculation (eigenvector/normalization method)  
-- ✅ Consistency Index (CI) calculation  
-- ✅ Consistency Ratio (CR) check  
-- ✅ Easy-to-use and modular code  
+- Pairwise comparison matrix input  
+- Weight calculation (eigenvector/normalization method)  
+- Consistency Index (CI) calculation  
+- Consistency Ratio (CR) check  
+- Easy-to-use and modular code  
 
 ---
 
-## 🧮 Methodology
+## Methodology
 
 ### 1. Pairwise Comparison Matrix
 
@@ -58,7 +58,7 @@ CI = \frac{\lambda_{\max} - n}{n - 1}
 
 ---
 
-## 📊 Example
+## Example
 
 ```python
 import numpy as np
